@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222831;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: 222831;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFD369;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-add-task {
+    width: 33px;
+    height: 33px;
+    padding: 3px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEEEEE;
+    transition: all 300ms;
+}
+
+.button-add-task:hover {
+    background: #393E46;
+    cursor: pointer;
+}
+
+.main-container h1 {
+    margin: 15px 15px;
+}
+
+.form {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.form input {
+    border: none;
+    border-radius: 10px 0 0 10px;
+    background: #EEEEEE;
+    outline: none;
+    padding: 5px;
+    width: 60%;
+    font-size: 20px;
+}
+
+.container-tasks {
+    width: 90%;
+    background-color: #EEEEEE;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5px 2px 5px;
+    font-size: 15pt;
+    transition: all 300ms ease-in;
+}
+
+.task:hover {
+    background: #dbdbdb;
+}
+
+.button-remove {
+    height: 31px;
+    width: 31px;
+    border: none;
+    border-radius: 5px;
+    background-position: center; 
+    background-image: url("../img/cruz.png");
+    background-repeat: no-repeat;
+    background-color: rgb(206, 55, 55);
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+.button-remove:hover {
+    background-color: rgb(131, 39, 39);
+}
